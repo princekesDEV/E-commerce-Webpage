@@ -13,7 +13,16 @@
     </button>
     <hr />
     <div id="search_box">
-      <input oninput="search()" type="text" placeholder="Search Items here" />
+      <input
+        oninput="search()"
+        type="text"
+        placeholder="Search Items here"
+      /><br />
+      <select onChange="tosort()">
+        <option value="">Sort With Price</option>
+        <option value="Low-to-high">Low To High</option>
+        <option value="High-to-low">High To Low</option>
+      </select>
     </div>
     <div id="container"></div>
   </body>

@@ -138,6 +138,14 @@ input {
   padding: 10px 20px;
   margin: 10px auto 10px auto;
 }
+select {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 2px solid rgb(79, 75, 75);
+  text-align: center;
+  width: 15%;
+  padding: 10px 20px;
+  margin: 10px auto 10px auto;
+}
 #search_box {
   text-align: center;
   position: static;

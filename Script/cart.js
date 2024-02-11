@@ -36,7 +36,8 @@ function deleteItem(i) {
   displayCard(cart_arr);
 }
 
-let total = cart_arr.reduce((totalPrice, elem) => {
-  return totalPrice + Number(JSON.stringify(elem.price));
-}, 0);
+let total = cart_arr.reduce(
+  (totalPrice, elem) => totalPrice + Number(JSON.stringify(elem.price)),
+  0
+);
 document.querySelector("#price").innerText = `Total Price:- $ ${total}`;
